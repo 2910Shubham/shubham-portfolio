@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2E2157;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+}
+
+header h1 {
+    margin: 10px 0 5px 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+#about, #works, #blogs, #contact, #comments {
+    background-color: #1E152E;
+    margin-bottom: 20px;
+}
+
+.work, .blog {
+    margin-bottom: 20px;
+}
+
+.work img, .blog img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #6F4E96;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1E152E;
+    color: #fff;
+}
